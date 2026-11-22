@@ -1,0 +1,41 @@
+EXPERIMENT 10(b)
+Title: Implement Various Types of Visualization in Python
+
+ALGORITHM:
+1. Start the program.
+2. Import the Matplotlib pyplot module as plt.
+3. Create a list of subject names and a list of corresponding marks.
+4. Create a bar chart using plt.bar().
+5. Add a title and axis labels, then display the chart using plt.show().
+6. Create a line graph using plt.plot() with markers.
+7. Add a title and axis labels, then display the graph.
+8. Create a pie chart using plt.pie() and display percentage labels using autopct.
+9. Add a title and display the pie chart.
+10. Create a scatter plot using plt.scatter().
+11. Add a title and axis labels, then display the scatter plot.
+12. Create a histogram using plt.hist() with 4 bins.
+13. Add a title and axis labels, then display the histogram.
+14. Stop the program.
+
+OUTPUT:
+The program displays five separate graphs:
+
+1. Bar Chart:
+   Displays the marks for Python (85), DBMS (90), OS (75), and EVS (80)
+   using vertical bars.
+
+2. Line Graph:
+   Displays the marks for the four subjects as points connected by lines.
+
+3. Pie Chart:
+   Displays the proportion of marks for each subject with percentage labels.
+
+4. Scatter Plot:
+   Displays the subject marks as individual points.
+
+5. Histogram:
+   Displays the frequency distribution of the marks using 4 bins.
+
+Note: These are graphical outputs, so they appear in separate Matplotlib
+windows rather than as text in the terminal. Close each graph window
+to proceed to the next one.
